@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ECB79238-B7BE-4AF4-93A6-05827CC54ACC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nesnetabanlı</RootNamespace>
+    <AssemblyName>Nesnetabanlı</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ası Period Tanımları.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ası Period Tanımları.Designer.cs">
+      <DependentUpon>Ası Period Tanımları.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ayrılış Bilgilerii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ayrılış Bilgilerii.Designer.cs">
+      <DependentUpon>Ayrılış Bilgilerii.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aşı Bilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aşı Bilgileri.Designer.cs">
+      <DependentUpon>Aşı Bilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bütünleşik Sürü Yönetimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bütünleşik Sürü Yönetimi.Designer.cs">
+      <DependentUpon>Bütünleşik Sürü Yönetimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doğum bildirimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doğum bildirimi.Designer.cs">
+      <DependentUpon>Doğum bildirimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doğum bilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doğum bilgileri.Designer.cs">
+      <DependentUpon>Doğum bilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grup Yönetimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grup Yönetimi.Designer.cs">
+      <DependentUpon>Grup Yönetimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hastalık Bilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hastalık Bilgileri.Designer.cs">
+      <DependentUpon>Hastalık Bilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laktasyon bilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laktasyon bilgileri.Designer.cs">
+      <DependentUpon>Laktasyon bilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisanslama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lisanslama.Designer.cs">
+      <DependentUpon>Lisanslama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parametre Bilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametre Bilgileri.Designer.cs">
+      <DependentUpon>Parametre Bilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pedigri Bilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pedigri Bilgileri.Designer.cs">
+      <DependentUpon>Pedigri Bilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Süt bilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Süt bilgileri.Designer.cs">
+      <DependentUpon>Süt bilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tartı Bilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tartı Bilgileri.Designer.cs">
+      <DependentUpon>Tartı Bilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Terminal İşlemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Terminal İşlemleri.Designer.cs">
+      <DependentUpon>Terminal İşlemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tohumlama Bilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tohumlama Bilgileri.Designer.cs">
+      <DependentUpon>Tohumlama Bilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yetki bilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yetki bilgileri.Designer.cs">
+      <DependentUpon>Yetki bilgileri.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ası Period Tanımları.resx">
+      <DependentUpon>Ası Period Tanımları.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ayrılış Bilgilerii.resx">
+      <DependentUpon>Ayrılış Bilgilerii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aşı Bilgileri.resx">
+      <DependentUpon>Aşı Bilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bütünleşik Sürü Yönetimi.resx">
+      <DependentUpon>Bütünleşik Sürü Yönetimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doğum bildirimi.resx">
+      <DependentUpon>Doğum bildirimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doğum bilgileri.resx">
+      <DependentUpon>Doğum bilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grup Yönetimi.resx">
+      <DependentUpon>Grup Yönetimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hastalık Bilgileri.resx">
+      <DependentUpon>Hastalık Bilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laktasyon bilgileri.resx">
+      <DependentUpon>Laktasyon bilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lisanslama.resx">
+      <DependentUpon>Lisanslama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametre Bilgileri.resx">
+      <DependentUpon>Parametre Bilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pedigri Bilgileri.resx">
+      <DependentUpon>Pedigri Bilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Süt bilgileri.resx">
+      <DependentUpon>Süt bilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tartı Bilgileri.resx">
+      <DependentUpon>Tartı Bilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Terminal İşlemleri.resx">
+      <DependentUpon>Terminal İşlemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tohumlama Bilgileri.resx">
+      <DependentUpon>Tohumlama Bilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yetki bilgileri.resx">
+      <DependentUpon>Yetki bilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
